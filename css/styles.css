@@ -1,0 +1,204 @@
+/* id*/
+
+
+/****************************************** section-1 *************************************************************************/
+/* html tag*/
+/* .sticky-navigation-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;} */
+
+body{
+  text-align:center;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+/* classes*/
+
+
+/* navigation-bar */
+.navbar{
+  margin: 0 0 5% 3%;
+  padding-top:0;
+}
+
+.navbar-brand{ font-family: 'ubuntu';
+  padding:1% 3%;
+  font-size:2.5rem;
+
+}
+.navbar-nav{
+  padding-right:5%;
+}
+.nav-item{
+  padding:5%;
+}
+
+.nav-link{
+  }
+/**************************** title-section ************************/
+/* container */
+.container-fluid{
+  padding: 3% 15%;
+}
+.container1{
+  text-align: left;
+}
+/* color scheme */
+
+.colored-section{
+  color:#fff;
+    background-color:#ff4c68;
+
+}
+
+.white-section{
+  background-color:#fff;
+}
+
+
+
+
+/* download-buttons */
+.down-button{
+  padding: 1% 5%;
+  margin: 3% 1%;
+}
+/* titleimage */
+.first-img{
+  height:90% ;width:60%;
+transform: rotate(25deg);
+margin:10% auto 0;
+position:relative;
+left:10%;
+
+}
+
+/************************************ section-2 *************************************/
+#features{
+  position:absolute;
+  top:600px;
+   margin-top:25px;
+text-align:center;
+padding:7% 15% ;
+margin-bottom:5%;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+.icon{ padding-bottom:2%;
+  margin:0 auto;
+  color: #ef8172;
+}
+
+.feature-headings{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  padding-top:5%;
+}
+.feature-para{
+  color: #8f8f8f;
+
+}
+
+/************************************ Section-3 testimonials *************************/
+
+#testimonials{
+margin-top:5%;
+
+  text-align: center;
+
+}
+.testimonial-image{
+  border-radius:100%;
+  width:15%;}
+.carousel-item{
+  padding:7% 15%;
+}
+
+h2{
+  padding:5%;
+}
+/***************************** Section-4 ****************************/
+#press{
+
+  text-align: center;
+  padding-bottom:5%;
+}
+.press-img{
+  width:18%;
+  margin:3% 3%;
+}
+
+
+
+/* pricing */
+
+#pricing{
+text-align: center;
+  padding:100px;
+}
+.price-para{
+  color:#8f8f8f;
+}
+.column-card{
+
+padding:3% 2%;
+}
+.pricing-heading{
+  padding-bottom:0;
+}
+p{
+  font-family: 'ubuntu';
+  font-size: 1rem;
+  font-weight: bold;
+}
+.pricing-price{
+  font-weight:bold;
+}
+
+
+/* call to action */
+
+.cta-heading{
+  padding:3% 15% 0;
+  margin-bottom:2%;
+}
+.down-button-1{
+  padding: 1% 2%;
+  margin:0 1% 3%;
+}
+
+/********** footer ***********/
+
+.icon2{
+  margin:1% 7px;
+}
+.footer-para{
+  color:#8f8f8f;
+  margin-bottom:0;
+}
+
+/******************* responsive *************************/
+
+@media (max-width: 1028px){
+
+.first-img{
+    position: static;
+    transform:rotate(0);
+  }
+  #features{
+    position:static;
+
+  }
+.container1{
+  text-align: center;
+}
+}
