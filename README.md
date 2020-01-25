@@ -1,2 +1,2 @@
 # rambo-tingdog
-a dating website for dogs
+a fictional dating website for dogs built using html , css and BOOTSTRAP Library.   
